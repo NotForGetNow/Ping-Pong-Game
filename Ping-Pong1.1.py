@@ -38,7 +38,7 @@ FPS = 60
 
 racket_l = Player('***', 520, 200, 4, 50, 50)
 racket_r = Player('***', 30, 200, 4, 50, 150) 
-ball = GameSprite('***', 200, 200, 4, 50, 50)
+ball = GameSprite('ball.png', 200, 200, 4, 50, 50)
 
 font.init()
 font = font.Font(Arial, 35)
