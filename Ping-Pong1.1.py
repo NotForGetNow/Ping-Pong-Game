@@ -29,7 +29,7 @@ bg = (200, 255, 255) #background
 w_w = 600 #win width
 w_h = 500 #win height
 window = display.set_mode((w_w, w_h)) 
-window.fill(bg) 
+window.fill(bg)  
  
 game = True 
 finish = False 
